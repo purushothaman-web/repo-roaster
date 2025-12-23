@@ -3,6 +3,9 @@ name: Repo Roaster 🔥
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   roast:
     # Prevent infinite loop when bot commits
@@ -35,4 +38,3 @@ jobs:
           git add reports/latest-roast.md || true
           git diff --cached --quiet || git commit -m "chore: update roast report 🔥"
           git push || true
-
