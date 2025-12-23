@@ -1,0 +1,8 @@
+{
+  "name": "repo-roaster",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "roast": "node scripts/index.js"
+  }
+}
