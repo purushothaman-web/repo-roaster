@@ -1,0 +1,11 @@
+{
+  "sarcasmLevel": 2,
+  "todoMaxAgeDays": 30,
+  "srcDir": "src",
+  "envFile": ".env",
+  "ignore": [
+    "node_modules",
+    "dist",
+    "build"
+  ]
+}
